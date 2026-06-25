@@ -32,7 +32,7 @@ function BookingForm({ isOpen, onClose }) {
      e.preventDefault();
 
   try {
-    const response = await fetch("VITE_N8N_WEBHOOK", {
+    const response = await fetch("https://hicham-2002.app.n8n.cloud/webhook-test/book-appointment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
