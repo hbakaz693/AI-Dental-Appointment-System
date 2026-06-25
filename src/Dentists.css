@@ -1,0 +1,171 @@
+/* Section Dentists */
+.dentists-section {
+  padding: 80px 0;
+  background: #f8fafc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* En-tête */
+.dentists-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.dentists-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.dentists-header h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 16px 0;
+  letter-spacing: -0.5px;
+}
+
+.dentists-subtitle {
+  font-size: 17px;
+  color: #64748b;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Grille - 3 colonnes */
+.dentists-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Carte dentiste */
+.dentist-card {
+  background: #ffffff;
+  padding: 36px 28px 30px;
+  border-radius: 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+.dentist-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+  border-color: #bfdbfe;
+}
+
+/* Avatar */
+.dentist-avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.dentist-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 6px 0;
+}
+
+.dentist-specialty {
+  font-size: 15px;
+  color: #2563eb;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+/* Expérience */
+.dentist-experience {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 12px;
+  padding: 8px 16px;
+  background: #f1f5f9;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Rating */
+.dentist-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.rating-stars {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.rating-reviews {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+/* Bouton */
+.dentist-book-btn {
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(29, 78, 216, 0.3);
+  width: 100%;
+}
+
+.dentist-book-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(29, 78, 216, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .dentists-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .dentists-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .dentists-header h2 {
+    font-size: 30px;
+  }
+  
+  .dentist-avatar {
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+  }
+}
