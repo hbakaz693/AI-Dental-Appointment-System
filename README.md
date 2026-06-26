@@ -1,16 +1,59 @@
-# React + Vite
+<h2>1. Project Overview</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<p>
+  <strong>AI Dental Appointment System</strong> is a modern web application that allows patients
+  to book dental appointments online through a simple and responsive React interface.
+</p>
 
-Currently, two official plugins are available:
+<p>
+  The project uses <strong>n8n automation</strong> to receive appointment data, format the date and time,
+  create events in <strong>Google Calendar</strong>, store booking details in
+  <strong>Google Sheets</strong>, and send automatic confirmation emails using <strong>Gmail</strong>.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<hr />
 
-## React Compiler
+<h2>2. Features</h2>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<ul>
+  <li>Modern dental clinic landing page</li>
+  <li>Multi-step appointment booking form</li>
+  <li>n8n Webhook integration</li>
+  <li>Automatic date and time formatting</li>
+  <li>Google Calendar appointment creation</li>
+  <li>Google Sheets booking storage</li>
+  <li>Automatic Gmail confirmation email</li>
+  <li>Responsive and clean user interface</li>
+</ul>
 
-## Expanding the Oxlint configuration
+<hr />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+<h2>3. System Architecture</h2>
+
+<pre>
+React Booking Form
+        ↓
+n8n Webhook
+        ↓
+Date & Time Formatter
+        ↓
+Google Calendar
+        ↓
+Google Sheets
+        ↓
+Gmail Confirmation
+</pre>
+
+<hr />
+
+<h2>4. Workflow: React → n8n</h2>
+
+<ol>
+  <li>The user fills out the appointment booking form.</li>
+  <li>React sends the form data to an n8n Webhook using a POST request.</li>
+  <li>n8n receives the patient information and appointment details.</li>
+  <li>The Date & Time node formats the selected date and time.</li>
+  <li>Google Calendar creates a new appointment event.</li>
+  <li>Google Sheets stores the booking details in a spreadsheet.</li>
+  <li>Gmail sends an automatic confirmation email to the patient.</li>
+</ol>
