@@ -101,10 +101,92 @@ n8n
 </table>
 
 
+## 7. 📸 Application Screenshots
+
+### 🏠 Home Page
+
+<p align="center">
+<img src="./screenshots/Capture d’écran 2026-06-25 215639.png" width="900">
+</p>
 
 ---
 
-<h2>6. Project Structure</h2>
+### 📅 Appointment Booking Form
 
-<img src="./ScreenShot/8.png" width="100%"/>
+<p align="center">
+<img src="./screenshots/2.png" width="900">
+</p>
 
+---
+
+### 📆 Google Calendar Integration
+
+<p align="center">
+<img src="./screenshots/4.png" width="900">
+</p>
+
+---
+
+### 📊 Google Sheets Storage
+
+<p align="center">
+<img src="./screenshots/5.png" width="900">
+</p>
+
+---
+
+### 📧 Email Confirmation
+
+<p align="center">
+<img src="./screenshots/7.png" width="900">
+</p>
+
+---
+
+## 8. 🎥 Demo Video
+
+<p align="center">
+<img src="./demo/dentalecare-website et 10 pages de plus - Personnel – Microsoft_ Edge 2026-06-25 22-10-01 (1)" width="900">
+</a>
+</p>
+
+<p align="center">
+<b>▶ Click the image above to watch the full demo.</b>
+</p>
+
+---
+
+## 9. 🔄 n8n Workflow
+
+<p align="center">
+<img src="./screenshots/3.png" width="1000">
+</p>
+
+### Workflow Overview
+
+```text
+React Booking Form
+        │
+        ▼
+Webhook
+        │
+        ▼
+Date & Time
+        │
+        ▼
+Google Calendar
+        │
+        ▼
+Google Sheets
+        │
+        ▼
+Gmail
+```
+
+### Workflow Steps
+
+- Receive booking request via Webhook
+- Format appointment date and time
+- Create appointment in Google Calendar
+- Save booking details to Google Sheets
+- Send confirmation email automatically
