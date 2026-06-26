@@ -106,5 +106,5 @@ n8n
 
 <h2>6. Project Structure</h2>
 
-<img src="./ScreenShot/7.png" width="100%"/>
+<img src="./ScreenShot/8.png" width="100%"/>
 
