@@ -93,7 +93,7 @@ Gmail
 </td>
 
 <td align="center">
-<img src="./images/n8n.png" width="60"/><br>
+<img src="./ScreenShot/n8n.png" width="60"/><br>
 n8n
 </td>
 </tr>
@@ -105,5 +105,5 @@ n8n
 
 <h2>6. Project Structure</h2>
 
-<img src="./screenshots/project-structure.png" width="100%"/>
+<img src="./ScreenShot/8.png" width="100%"/>
 
