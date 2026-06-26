@@ -184,3 +184,61 @@ Gmail
 - Create appointment in Google Calendar
 - Save booking details to Google Sheets
 - Send confirmation email automatically
+
+
+## 10. 🚀 Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/hbakaz693/AI-Dental-Appointment-System.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd AI-Dental-Appointment-System
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 11. 🔐 Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_N8N_WEBHOOK=https://your-n8n-webhook-url
+```
+
+> **Note:** Never commit your `.env` file or API keys to GitHub.
+
+---
+
+## 12. ⚙️ How It Works
+
+1. The patient opens the website.
+2. The patient fills out the appointment booking form.
+3. React sends the booking data to the n8n Webhook.
+4. n8n formats the appointment date and time.
+5. A new event is created in Google Calendar.
+6. The booking details are stored in Google Sheets.
+7. A confirmation email is automatically sent to the patient.
+8. The appointment is successfully confirmed.
