@@ -254,16 +254,10 @@
 
 <hr>
 
-<h2 id="démo-vidéo">🎥 Démo vidéo</h2>
+## 🎥 Demo Video
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
-    <img src="./ScreenShot/thumbnail.png" width="800" alt="Démo vidéo" />
-  </a>
-  <br>
-  <em>▶️ Cliquez sur l'image pour voir la démonstration complète</em>
-</p>
-
+▶ [Watch the demo](./demo/demo.mp4)
+- 
 <hr>
 
 <h2 id="workflow-n8n">⚙️ Workflow n8n</h2>
