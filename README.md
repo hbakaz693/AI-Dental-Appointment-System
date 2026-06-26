@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/n8n-0A6CFF?style=for-the-badge&logo=n8n&logoColor=white" />
   <img src="https://img.shields.io/badge/Google%20Calendar-4285F4?style=for-the-badge&logo=google-calendar&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" />
+  <img src="./ScreenShot/9.png />
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </p>
 
@@ -516,15 +516,11 @@ AI-Dental-Appointment-System/
     <tr>
       <td align="center">
         <strong>💼 LinkedIn</strong><br>
-        <a href="https://linkedin.com/in/hbakaz693">linkedin.com/in/hbakaz693</a>
+        <a href="https://www.linkedin.com/in/hicham-bakaz-155652396/">linkedin.com/in/hbakaz693</a>
       </td>
       <td align="center">
         <strong>📱 WhatsApp</strong><br>
-        +212 6 50 00 00 00
-      </td>
-      <td align="center">
-        <strong>🐦 Twitter</strong><br>
-        <a href="https://twitter.com/hbakaz693">@hbakaz693</a>
+        +212 6 59 97 10 16
       </td>
     </tr>
   </table>
