@@ -190,33 +190,23 @@ Gmail
 
 ### Clone the repository
 
-```bash
 git clone https://github.com/hbakaz693/AI-Dental-Appointment-System.git
-```
 
 ### Navigate to the project folder
 
-```bash
 cd AI-Dental-Appointment-System
-```
 
 ### Install dependencies
 
-```bash
 npm install
-```
 
 ### Start the development server
 
-```bash
 npm run dev
-```
 
 Open your browser and visit:
 
-```text
 http://localhost:5173
-```
 
 ---
 
@@ -224,9 +214,7 @@ http://localhost:5173
 
 Create a `.env` file in the root directory.
 
-```env
 VITE_N8N_WEBHOOK=https://your-n8n-webhook-url
-```
 
 > **Note:** Never commit your `.env` file or API keys to GitHub.
 
