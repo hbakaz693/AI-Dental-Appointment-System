@@ -138,7 +138,7 @@ n8n
 ### 📧 Email Confirmation
 
 <p align="center">
-<img src="./screenshots/7.png" width="900">
+<img src="./ScreenShot/7.png" width="900">
 </p>
 
 ---
