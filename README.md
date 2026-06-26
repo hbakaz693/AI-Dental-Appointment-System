@@ -203,10 +203,10 @@
         <img src="https://www.vectorlogo.zone/logos/google/google-icon.svg" width="60" /><br>
         <strong>Google Calendar</strong>
       </td>
-      <td align="center">
-        <img src="https://www.vectorlogo.zone/logos/google_sheets/google_sheets-icon.svg" width="60" /><br>
-        <strong>Google Sheets</strong>
-      </td>
+     <td align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/30/Google_Sheets_logo_%282014-2020%29.svg" width="60" height="60" alt="Google Sheets"/><br>
+  Google Sheets
+</td>
       <td align="center">
         <img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" width="60" /><br>
         <strong>Gmail</strong>
