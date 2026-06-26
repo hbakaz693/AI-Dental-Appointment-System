@@ -57,3 +57,53 @@ Gmail Confirmation
   <li>Google Sheets stores the booking details in a spreadsheet.</li>
   <li>Gmail sends an automatic confirmation email to the patient.</li>
 </ol>
+
+
+<h2>5. Technologies Used</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,vite,javascript,css,github" />
+</p>
+
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=react" width="60"/><br>
+React
+</td>
+
+<td align="center">
+<img src="https://vitejs.dev/logo.svg" width="60"/><br>
+Vite
+</td>
+
+<td align="center">
+<img src="https://www.vectorlogo.zone/logos/google/google-icon.svg" width="60"/><br>
+Google Calendar
+</td>
+
+<td align="center">
+<img src="https://www.vectorlogo.zone/logos/google_sheets/google_sheets-icon.svg" width="60"/><br>
+Google Sheets
+</td>
+
+<td align="center">
+<img src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" width="60"/><br>
+Gmail
+</td>
+
+<td align="center">
+<img src="./images/n8n.png" width="60"/><br>
+n8n
+</td>
+</tr>
+</table>
+
+
+
+---
+
+<h2>6. Project Structure</h2>
+
+<img src="./screenshots/project-structure.png" width="100%"/>
+
