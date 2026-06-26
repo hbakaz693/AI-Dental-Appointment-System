@@ -143,12 +143,6 @@ n8n
 
 ---
 
-## 8. 🎥 Demo Video
-
-<p align="center">
-<img src="./demo/dentalecare-website et 10 pages de plus - Personnel – Microsoft_ Edge 2026-06-25 22-10-01 (1)" width="900">
-</a>
-</p>
 
 <p align="center">
 <b>▶ Click the image above to watch the full demo.</b>
