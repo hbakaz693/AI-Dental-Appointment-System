@@ -114,7 +114,7 @@ n8n
 ### 📅 Appointment Booking Form
 
 <p align="center">
-<img src="./screenshots/2.png" width="900">
+<img src="./ScreenShot/2.png" width="900">
 </p>
 
 ---
