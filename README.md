@@ -106,7 +106,7 @@ n8n
 ### 🏠 Home Page
 
 <p align="center">
-<img src="./screenshots/Capture d’écran 2026-06-25 215639.png" width="900">
+<img src="./ScreenShot/Capture d’écran 2026-06-25 215639.png" width="900">
 </p>
 
 ---
@@ -122,7 +122,7 @@ n8n
 ### 📆 Google Calendar Integration
 
 <p align="center">
-<img src="./screenshots/4.png" width="900">
+<img src="./ScreenShot/4.png" width="900">
 </p>
 
 ---
@@ -130,7 +130,7 @@ n8n
 ### 📊 Google Sheets Storage
 
 <p align="center">
-<img src="./screenshots/5.png" width="900">
+<img src="./ScreenShot/5.png" width="900">
 </p>
 
 ---
@@ -159,7 +159,7 @@ n8n
 ## 9. 🔄 n8n Workflow
 
 <p align="center">
-<img src="./screenshots/3.png" width="1000">
+<img src="./ScreenShot/3.png" width="1000">
 </p>
 
 ### Workflow Overview
